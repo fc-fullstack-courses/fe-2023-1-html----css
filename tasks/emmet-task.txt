@@ -1,0 +1,16 @@
+За допомогою емметів створити наступну структуру
+
+<article id="article-1>
+  <h2 class="article-heading">Article 1</h2>
+  <p>Lorem ipsum ...</p>
+  <a href="#">Нагору</a>
+</article>
+<article id="article-2>
+  <h2 class="article-heading">Article 2</h2>
+  <p>Lorem ipsum ...</p>
+  <a href="#">Нагору</a>
+</article>
+...
+Таких атриклів має бути 10 - 20 штук
+
+Також зробіть хедер з навыгацією до них
