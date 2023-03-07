@@ -4,6 +4,14 @@
     <title>Семантика</title>
     <meta charset="UTF-8" />
     <style>
+      /*
+        специфічність / вага - число
+
+        для селектора тегу  = 1
+        для селектора класу = 10
+        для селектора id = 100
+        для атрибуту style = 1000
+      */ 
       p {
         /* color: green; */
         /*
@@ -29,6 +37,18 @@
         /* розмір шрифту - зазвичай в пікселях*/
         font-size: 24px;
       }
+
+      .class-name {
+        color: blue;
+      }
+
+      .red-text {
+        color: red;
+      }
+
+      #main {
+        color: orange;
+      }
     </style>
   </head>
   <body>
@@ -40,21 +60,28 @@
       distinctio! Quia exercitationem architecto, laudantium perferendis
       nesciunt sed molestiae natus id cum voluptatem.
     </p>
-    <p>
+    <p class="class-name">
       Reiciendis inventore laboriosam quis excepturi repellendus adipisci, autem
       explicabo ipsa quod repellat similique veritatis asperiores perspiciatis
       dolorum voluptatem sequi dicta! Iure, delectus eveniet! Error ab, magnam
       labore, eius architecto exercitationem sit deleniti id nam praesentium
       ipsa possimus, cumque quasi blanditiis!
     </p>
-    <p>
+    <p id="main" class="class-name" style="color: cyan; font-size: 34px;">
       Incidunt, voluptatum veniam. Harum qui modi labore ipsa fuga ab,
       exercitationem iure perferendis beatae voluptatum quia ex culpa dolore
       maiores cum! Culpa, exercitationem temporibus? Nulla, nihil? Eaque sint
       perspiciatis repellendus quidem illum est harum deserunt blanditiis, quod
       earum. Illo, molestiae.
     </p>
-    <p>
+    <p class="red-text class-name another-class">
+      Quidem, magnam quasi. Earum excepturi incidunt voluptate quam,
+      perspiciatis deserunt vero voluptatem soluta, impedit aperiam labore minus
+      ad, repellat voluptates veritatis. Libero cupiditate temporibus minus sint
+      tempora aut, beatae delectus praesentium, nemo totam ab vitae impedit
+      consequuntur tenetur eligendi qui.
+    </p>
+    <p class="red-text class-name another-class" >
       Quidem, magnam quasi. Earum excepturi incidunt voluptate quam,
       perspiciatis deserunt vero voluptatem soluta, impedit aperiam labore minus
       ad, repellat voluptates veritatis. Libero cupiditate temporibus minus sint
