@@ -6,7 +6,8 @@
         для селектора id = 100
         для атрибуту style = 1000
 */
-p {
+
+/*p {*/
   /* color: green; */
   /*
           Red
@@ -27,11 +28,12 @@ p {
         
           00 - FF
         */
-  color: #03ad06;
+  /* color: #03ad06; */
   /* розмір шрифту - зазвичай в пікселях*/
-  font-size: 24px;
-}
+  /* font-size: 24px; */
+/*}*/
 
+/* 
 .class-name {
   color: blue;
 }
@@ -42,4 +44,29 @@ p {
 
 #main {
   color: orange;
+} */
+
+.article {
+  /* колір фону */
+  background-color: dodgerblue;
+}
+
+.article-heading {
+  /* 
+  вирівнювання тексту
+    left | right | center | justify
+  */
+  text-align : center;
+  /* 
+    керування капіталізацією тексту
+  none | capitalize | uppercase | lowercase 
+  */
+  text-transform: capitalize;
+}
+
+.article-text {
+  text-align : justify;
+  /* висота лінії тексту */
+  line-height: 10;
+  font-size: 20px;
 }
