@@ -46,14 +46,11 @@
   color: orange;
 } */
 
-body {
-  color: white;
-}
-
 .article {
   /* колір фону */
   background-color: dodgerblue;
   border: 10px dotted red;
+  color: white;
 }
 
 .article-heading {
