@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+.img {
+  /* ширина елементу */
+  width: 300px;
+  /* висота елементу */
+  /* height: 200px; */
+  background-color: aqua;
+  /* відступи 
+    *1 значення - 4 сторони
+    *2 значення -  1 число - верх та низ
+                  2 число - ліво та право
+    3 значення -  1 - верх
+                  2 - ліво та право
+                  3 - низ
+    *4 значення -  1 - верх
+                  2 - право
+                  3 - низ
+                  4 - ліво
+  */
+  padding: 20px;
+  /* padding: 20px 40px; */
+  /* padding: 20px 40px 60px; */
+  /*
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+  */
+  /* padding: 10px 20px 30px 40px; */
+  /*
+    рамка
+
+    border-width - розмір
+    border-style - стиль лінії рамки
+    border-color - колір рамки
+  */
+  /*
+    border-width: 10px;
+    border-style: dashed;
+    border-color: green;
+  */
+  border: 10px dashed green;
+  /* border-bottom-width: 20px;
+  border-bottom-style: solid;
+  border-bottom-color: red; */
+  /* border-bottom: 20px solid red; */
+  /*
+    зовнішній відступ
+    скорочення аналогічні паддінгам
+  */
+  margin: 30px;
+  /* padding: 30px; */
+  /* border: 30px solid rgba(0,0,0,0);
+  background-color: red; */
+  
+}
