@@ -46,9 +46,14 @@
   color: orange;
 } */
 
+body {
+  color: white;
+}
+
 .article {
   /* колір фону */
   background-color: dodgerblue;
+  border: 10px dotted red;
 }
 
 .article-heading {
@@ -73,6 +78,8 @@
     serif | sans-serif | monospace
   */
   font-family: 'Times New Roman', sans-serif;
+  /* color: initial; */
+  color: red;
 }
 
 .article-text {
@@ -89,6 +96,7 @@
   text-decoration-color: red;
   text-decoration-style: dashed; */
   text-decoration: underline overline line-through dashed red;
+  border: inherit;
 }
 
 .link {
@@ -109,4 +117,5 @@
     text-decoration-style: wavy;
   */
   text-decoration: none;
+  color: inherit;
 }
