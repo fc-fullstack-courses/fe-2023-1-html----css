@@ -85,4 +85,28 @@
     normal | bold | 100 - 900
   */
   font-weight: bold;
+  /* text-decoration-line: underline overline line-through; 
+  text-decoration-color: red;
+  text-decoration-style: dashed; */
+  text-decoration: underline overline line-through dashed red;
+}
+
+.link {
+  /* 
+    підкреслення тексту 
+    none
+
+    text-decoration-line: none;
+    text-decoration-line: underline;
+    text-decoration-line: overline;
+    text-decoration-line: line-through;
+    text-decoration-color: ;
+
+    text-decoration-style: solid;
+    text-decoration-style: double;
+    text-decoration-style: dotted;
+    text-decoration-style: dashed;
+    text-decoration-style: wavy;
+  */
+  text-decoration: none;
 }
