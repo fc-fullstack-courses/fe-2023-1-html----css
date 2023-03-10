@@ -172,7 +172,7 @@ span {
   /*
     зміщення фокусу зображення
     object-position: горизонтальна_позиція  вертикальна_позиція
-    
+
     left | center | right | top | bottom
     %
     px
@@ -186,3 +186,27 @@ span {
 .avatar-left {
   object-position: 15%;
 }
+
+.bg {
+  min-height: 500px;
+  padding: 50px;
+  border: 5px solid black;
+  /*
+    фонове забраження елемента
+  */
+  background-image: url(../img/sky.jpg);
+  /*
+    керування повторами фонового забраження
+  */
+  background-repeat: no-repeat;
+  /* background-color: blue; */
+  /*
+    керування розміром фону (аналог object-fit)
+    cover | contain
+  */
+  background-size: cover;
+  /*
+    зміщення фокусу фонового зображення (аналог object-position)
+  */
+  background-position: center;
+} 
