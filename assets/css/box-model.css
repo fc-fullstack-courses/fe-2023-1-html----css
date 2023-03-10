@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  margin: 0;
 }
 
 .img {
@@ -100,18 +101,29 @@ span {
 .white-block {
   background-color: white;
 } */
+/* 
+.fixed-width {
+  width: 1200px;
+  background-color: orange;
+} */
 
 .fix {
   font-size: 0;
-  width: 900px;
-  height: 700px;
+  /* width: 900px;
+  height: 700px; */
   background-color: green;
 }
 
 .div {
   display: inline-block;
-  width: 50%;
-  height: 33%;
+  /* width: 50%;
+  height: 33%; */
+  /*
+    1vw - viewport width - вісоток ширини від вьюпотра
+    1vh - viewport height - вісоток висоти від вьюпотра
+  */
+  width: 100vw;
+  height: 100vh;
   background-color: dodgerblue;
   font-size: 40px;
   padding: 5%;
