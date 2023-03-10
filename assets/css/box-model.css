@@ -3,7 +3,7 @@
   margin: 0;
 }
 
-.img {
+.img-old {
   /* ширина елементу */
   width: 300px;
   /* висота елементу */
@@ -157,4 +157,32 @@ span {
   background-color: orange;
   margin-top: -215px;
   margin-left: 35px;
+}
+
+.avatar {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 5px solid red;
+  /*
+    виправлення спотворень картинок
+    fill | contain | cover | none | scale-down
+  */
+  object-fit: cover;
+  /*
+    зміщення фокусу зображення
+    object-position: горизонтальна_позиція  вертикальна_позиція
+    
+    left | center | right | top | bottom
+    %
+    px
+  */
+}
+
+.avatar-top {
+  object-position: 0 top;
+}
+
+.avatar-left {
+  object-position: 15%;
 }
