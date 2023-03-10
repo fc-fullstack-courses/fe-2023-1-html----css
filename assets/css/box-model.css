@@ -210,3 +210,15 @@ span {
   */
   background-position: center;
 } 
+
+.fake-avatar {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 5px solid red;
+  background-image: url(../img/cat.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
