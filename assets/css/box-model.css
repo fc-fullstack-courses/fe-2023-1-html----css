@@ -111,7 +111,7 @@ span {
   font-size: 0;
   /* width: 900px;
   height: 700px; */
-  background-color: green;
+  /* background-color: green; */
 }
 
 .div {
@@ -122,8 +122,12 @@ span {
     1vw - viewport width - вісоток ширини від вьюпотра
     1vh - viewport height - вісоток висоти від вьюпотра
   */
-  width: 100vw;
-  height: 100vh;
+  width: 200000px;
+  /* height: 100vh; */
+  min-width: 320px;
+  min-height: 500px;
+  max-width: 1200px;
+  max-height: 1500px;
   background-color: dodgerblue;
   font-size: 40px;
   padding: 5%;
