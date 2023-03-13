@@ -99,3 +99,30 @@
   width: 100vmin;
   height: 100vmin;
 }
+
+ul {
+  /*
+    list-style: 
+      - none;
+      - скорочення від:
+        - list-style-type - зовнішній вигляд маркерів списку
+          list-style-type: disc;
+          list-style-type: circle;
+          list-style-type: square;
+          list-style-type: decimal;
+          list-style-type: georgian;
+          list-style-type: lower-roman;
+          list-style-type: upper-roman;
+          list-style-type: trad-chinese-informal;
+          list-style-type: kannada;
+        - list-style-position
+          - outside - за замовчанням, маркери розміщуються назовні лішек
+          - inside - маркери стають частиною контенту лішек
+        - list-style-image
+  */
+  /* list-style: none; */
+  /* list-style-position: inside; */
+  list-style-image: url(../img/access-point.svg);
+  list-style-type: lower-roman;
+  font-size: 40px;
+}
