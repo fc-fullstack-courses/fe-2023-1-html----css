@@ -41,3 +41,49 @@
   border: 3px solid black;
   border-radius: 15px;
 }
+
+.div {
+  display: inline-block;
+  min-width: 200px;
+  min-height: 200px;
+  border: 5px solid red;
+  text-align: center;
+  background-color: dodgerblue;
+  font-size: 50px;
+}
+
+.hidden-3 {
+  /*
+    приховує елемент, вириваючи його з нормального потоку
+    елемент фактично не існує для:
+      - користувача
+      - інших елементів
+      - скрінрідерів та пошукових роботи
+  */
+  display: none;
+}
+
+.hidden-2 {
+  /*
+    прозорість, приховує елемент тількі візуально (і то при значенні 0)
+    - місце резервується
+    - скрінрідери та пошукові роботи його бачать
+  */
+  opacity: 0;
+}
+
+.hidden-1 {
+  /*
+    visible | hidden 
+
+    - місце резервується
+    - взаємодія неможлива
+    - скрінрідери та роботи не бачать
+  */
+  visibility: hidden;
+}
+
+.hidden-4 {
+  /* margin-left: -500000px; */
+  /* position */
+}
