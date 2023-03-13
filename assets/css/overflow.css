@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  margin: 0;
 }
 
 .wrapper {
@@ -44,8 +45,8 @@
 
 .div {
   display: inline-block;
-  min-width: 200px;
-  min-height: 200px;
+  /* min-width: 200px;
+  min-height: 200px; */
   border: 5px solid red;
   text-align: center;
   background-color: dodgerblue;
@@ -86,4 +87,15 @@
 .hidden-4 {
   /* margin-left: -500000px; */
   /* position */
+}
+
+.new-units {
+  /*
+    vh, vw
+
+    1vmin - 1 відсоток від меньшої сторони в'юпорта
+    1vmax - 1 відсоток від більшої сторони в'юпорта
+  */
+  width: 100vmin;
+  height: 100vmin;
 }
