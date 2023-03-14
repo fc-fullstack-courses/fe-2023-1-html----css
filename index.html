@@ -5,36 +5,48 @@
     <meta charset="UTF-8" />
     <!-- <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/box-model.css" /> -->
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/overflow.css" />
+    <!-- <link rel="stylesheet" href="assets/css/reset.css"> -->
+    <!-- <link rel="stylesheet" href="assets/css/overflow.css" /> -->
+    <link rel="stylesheet" href="assets/css/tables.css" />
   </head>
   <body>
-    <!-- <div class="div hidden-1">div 1</div>
-    <div class="div hidden-2">div 2</div>
-    <div class="div hidden-3">div 3</div>
-    <div class="div hidden-4">div 4</div> -->
-    <!-- <div class="div new-units">test</div> -->
-    <ul>
-      <li>item 1</li>
-      <li>item 2</li>
-      <li>item 3</li>
-      <li>item 4</li>
-      <li>item 5</li>
-    </ul>
-    <h2>Test heading</h2>
-    <p>
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum adipisci
-      totam cupiditate at! Consectetur eos ex sit maxime dignissimos quisquam
-      earum corrupti placeat laborum! Minus pariatur at suscipit qui? Minus
-      nulla nihil eos eum soluta itaque sint, nobis saepe doloribus, libero in
-      eaque ipsum quod debitis consectetur! Nam, fugiat numquam.
-    </p>
-    <ol>
-      <li>item 1</li>
-      <li>item 2</li>
-      <li>item 3</li>
-      <li>item 4</li>
-      <li>item 5</li>
-    </ol>
+    <h1>Таблиці</h1>
+    <table>
+      <caption>
+        Ваші замовлення
+      </caption>
+      <thead>
+        <tr>
+          <th scope="col">Номер замовлення</th>
+          <th scope="col">Ціна</th>
+          <th scope="col">Статус замовлення</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">2</th>
+          <td>1500.27</td>
+          <td>В обробці</td>
+          <!-- <td></td>
+          <td></td> -->
+        </tr>
+        <tr>
+          <th scope="row">1</th>
+          <td>369.99</td>
+          <!-- <td rowspan="2" colspan="3">Доставлене</td> -->
+          <td rowspan="2">Доставлене</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>2500.73</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th scope="row">Заголом:</th>
+          <td colspan="2">4371.99</td>
+        </tr>
+      </tfoot>
+    </table>
   </body>
 </html>

@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+table {
+  border: 2px solid black;
+  /*
+    відображення бордерів таблиці
+    separate | collapse
+  */
+  border-collapse: collapse;
+  
+}
+
+td,
+th {
+  padding: 10px 20px;
+  border: 2px solid black;
+  height: 60px;
+  /*
+    vertical-align: baseline;
+    vertical-align: sub;
+    vertical-align: super;
+    vertical-align: text-top;
+    vertical-align: text-bottom;
+    vertical-align: middle;
+    vertical-align: top;
+    vertical-align: bottom;
+  */
+  vertical-align: middle;
+}
+
+thead {
+  text-align: center;
+}
