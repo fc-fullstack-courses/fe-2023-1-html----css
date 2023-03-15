@@ -9,3 +9,42 @@
 [title~="secret"] {
   font-weight: bold;
 }
+
+/* h2,
+p,
+.div {
+  font-style: italic;
+} */
+/*
+  селектор прямих нащадків
+*/
+#div > h2 {
+  font-size: 60px;
+}
+
+#div > div > h2 {
+  color: red;
+}
+
+#test {
+  color: green;
+}
+/*
+  селектор нащадків
+*/
+#div p {
+  font-weight: bold;
+}
+
+/*
+  селектор всіх сусідніх елементів
+*/
+div ~ p {
+  color: green;
+}
+/*
+  селектор наступного сусіднього елементу
+*/
+div + p {
+  text-decoration: underline solid red;
+}
