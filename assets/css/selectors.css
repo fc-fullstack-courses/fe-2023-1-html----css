@@ -1,0 +1,11 @@
+[title] {
+  color: green;
+}
+
+[title="title"] {
+  font-size: 40px;
+}
+
+[title~="secret"] {
+  font-weight: bold;
+}
