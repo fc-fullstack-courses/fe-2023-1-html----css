@@ -1,3 +1,13 @@
+:root {
+  --bg-color: blue;
+  --font-size: 24px;
+  --night-theme-color: white;
+  --light-theme-color: black;
+  --horizontal-padding: 20px;
+  --vertical-padding: 15px;
+}
+
+
 [title] {
   color: green;
 }
@@ -48,3 +58,27 @@ div ~ p {
 div + p {
   text-decoration: underline solid red;
 }
+/*
+  псевдокласи
+*/
+
+.btn {
+
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: var(--vertical-padding) var(--horizontal-padding);
+  background-color: var(--bg-color);
+  color: white;
+  font-size: 24px;
+  margin-left: 100px;
+}
+
+p {
+  color: var(--bg-color);
+}
+
+.btn:hover {
+  background-color: dodgerblue;
+  color: black;
+}
+
