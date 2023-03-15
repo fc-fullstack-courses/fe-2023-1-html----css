@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 :root {
   --bg-color: blue;
   --font-size: 24px;
@@ -7,16 +10,15 @@
   --vertical-padding: 15px;
 }
 
-
 [title] {
   color: green;
 }
 
-[title="title"] {
+[title='title'] {
   font-size: 40px;
 }
 
-[title~="secret"] {
+[title~='secret'] {
   font-weight: bold;
 }
 
@@ -62,23 +64,35 @@ div + p {
   псевдокласи
 */
 
-.btn {
-
+.link {
+  display: inline-block;
+  font-family: sans-serif;
+  width: 150px;
+  text-align: center;
+  /* min-height: 50px; */
   border: 2px solid black;
   border-radius: 10px;
   padding: var(--vertical-padding) var(--horizontal-padding);
   background-color: var(--bg-color);
   color: white;
   font-size: 24px;
-  margin-left: 100px;
+  text-decoration: none;
+  line-height: 1.2;
 }
 
 p {
   color: var(--bg-color);
 }
 
-.btn:hover {
+.link:hover {
   background-color: dodgerblue;
   color: black;
 }
 
+.link:hover:not(a) {
+  background-color: limegreen;
+}
+
+body > :not(a,button) {
+  color: red;
+}
