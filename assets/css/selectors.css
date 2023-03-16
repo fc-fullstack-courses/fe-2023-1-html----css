@@ -103,7 +103,7 @@ p {
 }
 
 .link:hover:not(a),
-.link:focus:not(a)  {
+.link:focus:not(a) {
   background-color: limegreen;
 }
 
@@ -123,6 +123,42 @@ p {
   color: green;
 }
 
-body > :not(a,button) {
+body > :not(a, button) {
+  /* color: red; */
+}
+
+li:first-child {
   color: red;
+}
+
+li:last-child {
+  color: green;
+}
+
+div> ul > li:first-child {
+  font-size: 32px;
+}
+
+li:nth-child(3) {
+  color: orange;
+}
+
+li:nth-child(n) {
+  color: darkcyan;
+}
+
+/* li:nth-child(2n) {
+  color: rgb(250, 17, 246);
+} */
+
+li:nth-child(even) {
+  color: rgb(250, 17, 246);
+}
+/* 
+li:nth-child(2n + 1) {
+  color:rgb(17, 244, 13);
+} */
+
+li:nth-child(odd) {
+  color:rgb(17, 244, 13);
 }
