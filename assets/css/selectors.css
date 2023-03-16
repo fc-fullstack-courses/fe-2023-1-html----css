@@ -86,6 +86,15 @@ p {
   color: var(--bg-color);
 }
 
+.link:link {
+  text-decoration: underline;
+}
+
+.link:visited {
+  text-decoration: wavy;
+  color: purple;
+}
+
 .link:hover,
 .link:focus {
   background-color: dodgerblue;
@@ -96,6 +105,10 @@ p {
 .link:hover:not(a),
 .link:focus:not(a)  {
   background-color: limegreen;
+}
+
+.link:active {
+  color: red;
 }
 
 /* .link:focus {
