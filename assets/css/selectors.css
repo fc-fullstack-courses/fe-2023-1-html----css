@@ -8,10 +8,12 @@
   --light-theme-color: black;
   --horizontal-padding: 20px;
   --vertical-padding: 15px;
+  --paddings: 10px 20px 30px 40px;
 }
 
 [title] {
   color: green;
+  padding: var(--paddings);
 }
 
 [title='title'] {
@@ -84,13 +86,28 @@ p {
   color: var(--bg-color);
 }
 
-.link:hover {
+.link:hover,
+.link:focus {
   background-color: dodgerblue;
   color: black;
+  outline: none;
 }
 
-.link:hover:not(a) {
+.link:hover:not(a),
+.link:focus:not(a)  {
   background-color: limegreen;
+}
+
+/* .link:focus {
+  border-color: red;
+} */
+
+.par:focus {
+  color: green;
+}
+
+.div:focus-within {
+  color: green;
 }
 
 body > :not(a,button) {
