@@ -78,9 +78,8 @@ li::after {
   /* background-color: inherit; */
   padding: 15px 20px;
   min-width: 200px;
-  border: 1px solid;
-  border-radius: 20px;
-
+  border: 2px solid;
+  height: 40px;
   /* 
     вказує, які властвості будут переходити (анімуватися)
   */
@@ -100,7 +99,24 @@ li::after {
   */
   transition-timing-function: linear;
   /* transition: color 300ms 0.5s linear ,background-color 300ms 0.5s linear; */
-  transition: all 300ms 0.5s linear;
+  transition: all 300ms linear;
+  position: relative;
+}
+
+.nav-link::before {
+  content: '';
+  width: 2px;
+  height: 0px;
+  background-color: red;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  transition: height 0.3s ease-in;
+}
+
+.nav-link:hover::before {
+  height: 100%;
 }
 
 .nav-link:hover {
