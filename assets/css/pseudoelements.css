@@ -115,6 +115,11 @@ li::after {
   transition: height 0.3s ease-in;
 }
 
+/*
+  зробити ще один псевдоелемент для посилання 
+  і прописати для нього переход схожим чином
+*/
+
 .nav-link:hover::before {
   height: 100%;
 }
