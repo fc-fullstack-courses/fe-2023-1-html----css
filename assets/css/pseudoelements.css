@@ -1,0 +1,18 @@
+.article-head {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.text::first-letter {
+  font-size: 40px;
+  font-weight: bold;
+  color: red;
+}
+
+.text::first-line {
+  background-color: orange;
+}
+
+::selection {
+  background-color: lime;
+}
