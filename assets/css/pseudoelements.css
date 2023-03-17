@@ -96,7 +96,7 @@ li::after {
   /* 
     часова функція - як саме буде відбуватися анімація
 
-    ease | ease-in| ease-out| ease-in-out| linear | step-start| step-end;
+    ease | ease-in| ease-out| ease-in-out| linear 
   */
   transition-timing-function: linear;
 }
@@ -108,4 +108,41 @@ li::after {
 
 .main {
   min-height: 300vh;
+}
+
+.inner {
+  width: 200px;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+
+  transition-property: width;
+  transition-duration: 3s;
+}
+
+.container:hover .inner {
+  width: 100%;
+}
+
+.linear {
+  transition-timing-function: linear;
+}
+
+.ease {
+  transition-timing-function: ease;
+}
+
+.ease-in {
+  transition-timing-function: ease-in;
+}
+
+.ease-out {
+  transition-timing-function: ease-out;
+}
+
+.ease-in-out {
+  transition-timing-function: ease-in-out;
 }
