@@ -16,12 +16,11 @@
 ::selection {
   background-color: lime;
 }
-
+/* 
 li {
   display: block;
   margin: 0 auto;
   width: 80%;
-  /* border: 5px solid black; */
   margin-top: 10px;
   background-color: darkcyan;
   color: white;
@@ -46,6 +45,67 @@ li::after {
   content: close-quote;
   left: 100%;
   bottom: 0;
+} */
+
+.header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom: 2px solid black;
+  z-index: 500;
+  background-color: darkcyan;
 }
 
+.nav {
+  margin: 0 auto;
+  text-align: center;
+}
 
+.nav-list {
+  font-size: 0;
+}
+
+.nav-list-item {
+  display: inline-block;
+  font-size: initial;
+}
+
+.nav-link {
+  display: block;
+  text-decoration: none;
+  color: white;
+  /* background-color: inherit; */
+  padding: 15px 20px;
+  min-width: 200px;
+  border: 1px solid;
+  border-radius: 20px;
+
+  /* 
+    вказує, які властвості будут переходити (анімуватися)
+  */
+  transition-property: color, background-color;
+  /* 
+    час анімаціі
+  */
+  transition-duration: 300ms;
+  /* 
+    затримка перед переходом
+  */
+  /* transition-delay: 0.5s; */
+  /* 
+    часова функція - як саме буде відбуватися анімація
+
+    ease | ease-in| ease-out| ease-in-out| linear | step-start| step-end;
+  */
+  transition-timing-function: linear;
+}
+
+.nav-link:hover {
+  background-color: white;
+  color: darkcyan;
+}
+
+.main {
+  min-height: 300vh;
+}
