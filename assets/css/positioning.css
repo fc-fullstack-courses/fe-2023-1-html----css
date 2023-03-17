@@ -3,7 +3,7 @@
   height: 200vh;
   background-color: dodgerblue;
   margin: 0 auto;
-  position: relative;
+  /* position: relative; */
   overflow: scroll;
 }
 
@@ -27,8 +27,8 @@
 .relative {
   position: relative;
   /* top: 50px; */
-  left: 30px;
-  z-index: -1010000000000;
+  /* left: 300px; */
+  /* z-index: -1010000000000; */
 }
 
 .fixed {
@@ -42,10 +42,12 @@
 .absolute {
   position: absolute;
   background-color: orange;
-  top: 0;
-  left: 0;
-  /* right: 0;
+  /* top: 0;
+  left: 0; 
+  right: 0;
   bottom: 0; */
+  /* top: 50px;
+  right: 70px; */
 }
 
 /* .absolute:hover {
@@ -57,4 +59,36 @@
   position: sticky;
   top: 20px;
   /* left: 20px; */
+}
+
+.logo-container {
+  margin-top: 200px;
+}
+
+.head,
+.ear {
+  background-color: black;
+  border-radius: 50%;
+}
+
+.head {
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.ear {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: -90px;
+}
+
+.left-ear {
+  left: -120px;
+}
+
+.right-ear {
+  right: -120px;
 }
