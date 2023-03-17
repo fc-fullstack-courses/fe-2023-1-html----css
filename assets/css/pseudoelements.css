@@ -92,18 +92,21 @@ li::after {
   /* 
     затримка перед переходом
   */
-  /* transition-delay: 0.5s; */
+  transition-delay: 0.5s;
   /* 
     часова функція - як саме буде відбуватися анімація
 
     ease | ease-in| ease-out| ease-in-out| linear 
   */
   transition-timing-function: linear;
+  /* transition: color 300ms 0.5s linear ,background-color 300ms 0.5s linear; */
+  transition: all 300ms 0.5s linear;
 }
 
 .nav-link:hover {
   background-color: white;
   color: darkcyan;
+  /* width: 300px; */
 }
 
 .main {
@@ -112,13 +115,14 @@ li::after {
 
 .inner {
   width: 200px;
+  margin: 0 auto;
   font-size: 24px;
   font-weight: bold;
   text-transform: uppercase;
   background-color: black;
   color: white;
   padding: 10px 20px;
-
+  text-align: center;
   transition-property: width;
   transition-duration: 3s;
 }
