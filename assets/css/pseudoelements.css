@@ -115,6 +115,7 @@ li::after {
   transition: height 0.3s ease-in;
 }
 
+
 /*
   зробити ще один псевдоелемент для посилання 
   і прописати для нього переход схожим чином
@@ -128,6 +129,29 @@ li::after {
   background-color: white;
   color: darkcyan;
   /* width: 300px; */
+}
+
+
+.nav-link::after {
+  content: '';
+  background-color: rgb(68, 226, 19);
+  position: absolute;
+  height: 4px; 
+  width: 0;
+  right: 0;
+  top: 100%;
+  transition: width 0.3s ease-in;
+}
+
+.nav-link:hover::after {
+  width:100%;
+}
+
+
+.nav-link:hover {
+  background-color: #fff;
+  color: #43e;
+  transition: color 300ms linear, background-color 300ms linear;
 }
 
 .main {
