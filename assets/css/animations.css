@@ -13,8 +13,8 @@
   text-align: center;
   position: relative;
   left: 40%;
-  /* transform: translate(-50%, -50%); */
-  transition: transform 0.5s;
+  transform: translate(-50%, -50%);
+  transition: transform 1.5s;
   transform-origin: 50% 25px;
 }
 
@@ -26,5 +26,5 @@
   /* transform: scaleX(3); */
   /* transform: skew(30deg, -45deg); */
   /* transform: skewX(30deg); */
-  transform: rotate(-360deg);
+  transform: translate(0, 200px) rotate(-360deg) scale(2, 0.5) skew(30deg, -45deg);
 }
