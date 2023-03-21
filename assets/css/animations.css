@@ -17,10 +17,11 @@
   transform: translate(-50%, -50%);
   /* margin-top: -50%;
   margin-left: -50%; */
-  /* transition: transform 0.4s; */
+  transition: transform 0.4s;
 }
 
-.box:hover {
+.box-container:hover .box {
   /* width: 800px; */
-  
+  /* transform: translate(0, 200px);
+  transform: translateY(200px); */
 }
