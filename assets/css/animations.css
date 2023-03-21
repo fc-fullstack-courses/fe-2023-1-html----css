@@ -2,6 +2,7 @@
   height: 700px;
   background-color: orange;
   padding-top: 250px;
+  perspective: 1000px;
 }
 
 .box {
@@ -13,9 +14,9 @@
   text-align: center;
   position: relative;
   left: 40%;
-  transform: translate(-50%, -50%);
-  transition: transform 1.5s;
-  transform-origin: 50% 25px;
+  /* transform: translate(-50%, -50%); */
+  transition: transform 0.3s;
+  /* transform-origin: 50% 25px; */
 }
 
 .box-container:hover .box {
@@ -26,5 +27,8 @@
   /* transform: scaleX(3); */
   /* transform: skew(30deg, -45deg); */
   /* transform: skewX(30deg); */
-  transform: translate(0, 200px) rotate(-360deg) scale(2, 0.5) skew(30deg, -45deg);
+  /* transform: translate(0, 200px) rotate(-360deg) scale(2, 0.5) skew(30deg, -45deg); */
+  /* transform: translate3d(0, 0, 200px); */
+  /* transform:  translateZ(20px); */
+  transform: scale3d(2, 2, 2) rotate3d(2,5,4, 45deg);
 }
