@@ -21,4 +21,8 @@
       flex-end
       center
       baseline
+    flex-wrap - керує кількістю ліній в контейнері
+      nowrap (default) - 1 лінія на контейнер
+      wrap - скільки потрібно ліній на контейнер
+      wrap-reverse
   2. для флекс-дітей | flex-container > * 
