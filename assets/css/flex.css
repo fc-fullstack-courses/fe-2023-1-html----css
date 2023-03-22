@@ -1,5 +1,9 @@
 .container {
   display: flex;
+  /* flex-direction: column;
+  flex-wrap: wrap; */
+  flex-flow: column wrap;
+
   /* 
     відповідь 1
     flex-direction: row-reverse;
@@ -36,6 +40,7 @@
   align-items: stretch;
   justify-content: space-between;
   */
+
 
   background-color: dodgerblue;
   border: 5px solid;
