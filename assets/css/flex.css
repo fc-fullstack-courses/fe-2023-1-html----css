@@ -1,7 +1,10 @@
 .container {
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   background-color: dodgerblue;
   border: 5px solid;
+  height: 100vh;
 }
 
 .item {
