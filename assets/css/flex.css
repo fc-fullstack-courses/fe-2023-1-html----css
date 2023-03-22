@@ -19,10 +19,24 @@
     justify-content: flex-end;
     align-items: flex-start;
   */
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-items: center;
-  align-content: stretch;
+
+  /*
+    відповідь 4
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+    align-items: center;
+  */
+
+  /*
+    відповідь 5
+  flex-direction: column-reverse;
+  flex-wrap: wrap-reverse;
+  align-content: center;
+  align-items: stretch;
+  justify-content: space-between;
+  */
+
   background-color: dodgerblue;
   border: 5px solid;
   height: 100vh;
