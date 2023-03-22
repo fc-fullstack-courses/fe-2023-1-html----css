@@ -1,8 +1,26 @@
 .container {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  /* 
+    відповідь 1
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: flex-end; 
+  */
+  /* 
+    відповідь 2
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center; 
+  */
+
+  /* 
+    відповідь 3
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+  */
+
+
   background-color: dodgerblue;
   border: 5px solid;
   height: 100vh;
