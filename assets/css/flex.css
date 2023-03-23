@@ -1,8 +1,12 @@
 .container {
   display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  align-content: space-evenly;
   /* flex-direction: column;
   flex-wrap: wrap; */
-  flex-flow: column wrap;
+  /* flex-flow: column wrap; */
 
   /* 
     відповідь 1
@@ -44,15 +48,16 @@
 
   background-color: dodgerblue;
   border: 5px solid;
+  width: 80vw;
   height: 100vh;
 }
 
 .item {
   text-align: center;
   /* width: 100px; */
-  padding: 20px;
+  padding: 10px;
   background-color: orange;
-  font-size: 60px;
+  font-size: 50px;
   border: 5px solid yellow;
   /* margin: 50px; */
 }
@@ -60,8 +65,18 @@
 .test {
   /* margin-top: auto;
   margin-bottom: auto; */
+  height: 200px;
 }
 
 .last {
   /* margin-left: auto; */
+}
+
+.big-item {
+  width: 400px;
+  height: 400px;
+  background-color: aqua;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
