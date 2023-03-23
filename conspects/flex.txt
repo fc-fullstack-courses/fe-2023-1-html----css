@@ -35,3 +35,11 @@
       stretch
     flex-flow - скорочення для flex-direction та flex-wrap
   2. для флекс-дітей | flex-container > * 
+    order - визначає порядок розміщення дитини в контейнері
+      приймає число, за замовчанням 0
+
+    align-self
+    flex-basis
+    flex-grow
+    flex-shrink
+    flex
