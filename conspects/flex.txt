@@ -38,7 +38,14 @@
     order - визначає порядок розміщення дитини в контейнері
       приймає число, за замовчанням 0
 
-    align-self
+    align-self - вирівнювання по поперечні осі конкретного елемента
+      це align-items дял конкретного елементу
+        stretch (default) - розтягує елемент вздовж поперечної осі
+        flex-start 
+        flex-end
+        center
+        baseline
+        
     flex-basis
     flex-grow
     flex-shrink

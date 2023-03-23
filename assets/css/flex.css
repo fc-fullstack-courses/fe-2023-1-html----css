@@ -90,3 +90,8 @@
   /* 4 */
   order: 1;
 }
+
+.self-aligned {
+  /* margin-bottom: auto; */
+  align-self: flex-end;
+}
