@@ -75,4 +75,4 @@
     flex-shrink - коефіціент стискання флекс-дитини
       приймає числа, за замовчанням 1
 
-    flex
+    flex - скорочення від flex-grow, flex-shrink таі flex-basis
