@@ -10,9 +10,9 @@
   </head>
   <body>
     <form>
-      <label
-        >Логін: <input placeholder="login" type="text" name="login"
-      /></label>
+      <label>
+        Логін: <input placeholder="login" type="text" name="login" required />
+      </label>
       <label for="password-input">
         Password:
         <input
@@ -20,19 +20,20 @@
           name="password"
           placeholder="password"
           type="password"
+          required
         />
       </label>
-      <input type="email" placeholder="email" name="email" />
+      <input type="email" placeholder="email" name="email" required />
       <input type="date" placeholder="date of birth" name="birthday" />
       <input type="checkbox" name="checkbox" value="checked" />
       <p>Вкажіть свою стать:</p>
 
       <label>
-        <input type="radio" name="gender" value="male" />
+        <input type="radio" name="gender" value="male" required />
         Чоловіча
       </label>
-      <label >
-        <input type="radio" name="gender" value="female">
+      <label>
+        <input type="radio" name="gender" value="female" />
         Жіноча
       </label>
 
