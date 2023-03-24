@@ -11,7 +11,7 @@
   <body>
     <form>
       <label>
-        Логін: <input placeholder="login" type="text" name="login" required />
+        Логін: <input required placeholder="login" type="text" pattern="^[a-zA-Z][a-zA-Z0-9]{2,15}$" name="login" />
       </label>
       <label for="password-input">
         Password:
@@ -20,16 +20,19 @@
           name="password"
           placeholder="password"
           type="password"
-          required
         />
       </label>
-      <input type="email" placeholder="email" name="email" required />
+      <input type="email" placeholder="email" name="email" pattern='[^@ \t\r\n]+@[^@ \t\r\n]+\.[^@ \t\r\n]+' required />
+      <label>
+        Бажана заробітня платня:
+        <input type="number" name="salary" />
+      </label>
       <input type="date" placeholder="date of birth" name="birthday" />
       <input type="checkbox" name="checkbox" value="checked" />
       <p>Вкажіть свою стать:</p>
 
       <label>
-        <input type="radio" name="gender" value="male" required />
+        <input type="radio" name="gender" value="male" />
         Чоловіча
       </label>
       <label>
