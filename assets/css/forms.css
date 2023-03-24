@@ -11,3 +11,9 @@
 label {
   display: block;
 }
+
+textarea {
+  display: block;
+  resize: none;
+  width: 100%;
+}
