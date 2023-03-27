@@ -1,0 +1,13 @@
+.heading {
+  font-size: 3rem;
+  font-style: italic;
+}
+
+h2 {
+  text-decoration: underline solid black;
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 6rem;
+}
