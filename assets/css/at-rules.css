@@ -1,9 +1,37 @@
 @charset "utf-8";
-@import url('./reset.css');
+/* @import url('./reset.css'); */
 @import './fonts.css';
+
+:root {
+  font-size: 24px;
+}
 
 .heading {
   font-family: 'Main font abracadabra', 'Times New Roman', sans-serif;
-  font-size: 48px;
+  /* font-size: 48px; */
   font-weight: 700;
+}
+
+.outer,
+.inner,
+.target {
+  padding: 20px;
+  border: 5px solid black;
+}
+
+.outer {
+  font-size: 1.5em;
+}
+
+.inner {
+  font-size: 0.75em;
+}
+
+.target {
+  font-size: 3em;
+}
+
+.target-rem {
+  color: gold;
+  font-size: 3rem;
 }
