@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "Main font abracadabra";
+  src: url("../fonts/Alkatra/Alkatra-Regular.ttf") format("truetype"),
+  local("Alkatra");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Main font abracadabra";
+  src: url("../fonts/Alkatra/Alkatra-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Main font abracadabra";
+  src: url("../fonts/Alkatra/Alkatra-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Main font abracadabra";
+  src: url("../fonts/Alkatra/Alkatra-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
