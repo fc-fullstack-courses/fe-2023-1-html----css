@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="assets/css/reset.css" /> -->
+    <link rel="stylesheet" href="../css/forms.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form class="form">
+      <fieldset>
+        <legend>Основні дані</legend>
+        <label>
+          Логін:
+          <input
+            class="input"
+            autofocus
+            required
+            value="Test"
+            placeholder="login"
+            type="text"
+            pattern="^[a-zA-Z][a-zA-Z0-9]{2,15}$"
+            name="login"
+          />
+        </label>
+        <label for="password-input">
+          Password:
+          <input
+            class="input"
+            id="password-input"
+            name="password"
+            placeholder="password"
+            type="password"
+            autocomplete="new-password"
+          />
+        </label>
+        <label>
+          Email:
+          <input
+            class="input"
+            type="email"
+            value="user@mail.com"
+            placeholder="email"
+            autocomplete="email"
+            name="email"
+            pattern="[^@ \t\r\n]+@[^@ \t\r\n]+\.[^@ \t\r\n]+"
+            required
+          />
+        </label>
+
+        <label>
+          Бажана заробітня платня:
+          <input type="number" name="salary" />
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Додаткові дані</legend>
+        <input type="date" placeholder="date of birth" name="birthday" />
+        <label>
+          Ви повнолітній?
+          <input type="checkbox" name="isAdult" value="true" />
+        </label>
+        <p>Вкажіть свою стать:</p>
+        <label>
+          <input type="radio" name="gender" value="male" />
+          Чоловіча
+        </label>
+        <label>
+          <input type="radio" name="gender" value="female" />
+          Жіноча
+        </label>
+        <label>
+          Ваше місто перебування:
+          <select name="city">
+            <optgroup label="Україна">
+              <option value="zp">Запоріжжя</option>
+              <option value="kyiv">Київ</option>
+              <option value="lviv">Львів</option>
+            </optgroup>
+            <optgroup label="Польща">
+              <option value="warsaw">Варшава</option>
+              <option value="krakow">Краков</option>
+              <option value="lublin">Люблин</option>
+            </optgroup>
+          </select>
+        </label>
+        <label>
+          Напишіть про себе:
+          <textarea name="about-me" cols="30" rows="10" placeholder="testsas"></textarea>
+        </label>
+      </fieldset>
+
+      <button type="submit">Register</button>
+    </form>
+  </body>
+</html>
