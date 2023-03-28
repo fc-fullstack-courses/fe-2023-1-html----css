@@ -20,3 +20,43 @@
     text-align: center;
   }
 }
+/* працює тільки на ширині 500 пікселів */
+@media (width: 500px) {
+  .header {
+    padding: 60px 120px;
+    text-align: center;
+    background-color: red;
+  }
+}
+/*
+  min-width: 500px - від 500 пікселів і далі 
+  max-width: 500px - до 500 пікселів включно
+*/
+
+/* меньше або дорівнює ширині */
+@media (max-width: 500px) {
+  .header {
+    background-color: green;
+  }
+
+  .main-heading {
+    font-size: 2.5rem;
+    font-style: italic;
+  }
+}
+/* більше або дорівнює ширині */
+@media screen and (min-width: 500px)  {
+  .header {
+    background-color: purple;
+  }
+  .main-heading {
+    text-decoration: underline;
+  }
+}
+
+/* 
+@media screen and (max-width: 700px) and (orientation: landscape) {
+  .header {
+    margin-bottom: 500px;
+  }
+} */
