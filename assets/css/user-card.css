@@ -1,0 +1,56 @@
+.user-card {
+  max-width: 700px;
+  display: flex;
+  border: 5px solid black;
+}
+
+.card-img-wrapper {
+  display: flex;
+}
+
+.img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.info-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: rgb(201, 200, 200);
+}
+
+.user-card-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+
+.contacts-list {
+
+}
+
+.contacts-list-item {
+
+}
+
+.contact-link {
+
+}
+
+.wrapper {
+  width: 40px;
+}
+
+.contact-link-text {
+
+}
