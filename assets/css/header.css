@@ -1,0 +1,22 @@
+.header {
+  background-color: dodgerblue;
+  padding: 20px 40px;
+  color: white;
+}
+
+.main-heading {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+/* медіа правило для друку */
+@media print {
+  /* окремий css файл */
+  .header {
+    color: black;
+  }
+
+  .main-heading {
+    text-align: center;
+  }
+}
