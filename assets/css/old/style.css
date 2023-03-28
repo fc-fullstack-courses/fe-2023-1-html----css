@@ -1,0 +1,118 @@
+/*
+        специфічність / вага - число
+
+        для селектора тегу  = 1
+        для селектора класу = 10
+        для селектора id = 100
+        для атрибуту style = 1000
+*/
+
+/*p {*/
+/* color: green; */
+/*
+          Red
+          Green
+          Blue
+
+          0 - 255
+        */
+/* color: rgb(50, 50,50); */
+/*
+          Alpha-канал (прозоро) 0 - 1 (видно)
+        */
+/* color: rgba(50, 50, 50, 0.3); */
+/*
+          Hex-code - hexadecimal (шістнадцядкові числа)
+          R  G  B
+          a0 bc 3f
+        
+          00 - FF
+        */
+/* color: #03ad06; */
+/* розмір шрифту - зазвичай в пікселях*/
+/* font-size: 24px; */
+/*}*/
+
+/* 
+.class-name {
+  color: blue;
+}
+
+.red-text {
+  color: red;
+}
+
+#main {
+  color: orange;
+} */
+
+.article {
+  /* колір фону */
+  background-color: dodgerblue;
+  border: 10px dotted red;
+  color: white;
+}
+
+.article-heading {
+  /* 
+  вирівнювання тексту
+    left | right | center | justify
+  */
+  text-align: center;
+  /* 
+    керування капіталізацією тексту
+  none | capitalize | uppercase | lowercase 
+  */
+  text-transform: capitalize;
+  /*
+    курсивність тексту
+    normal | italic | oblique
+  */
+  font-style: italic;
+  /*
+    сімейство шрифта
+    назви шрифтів через кому
+    serif | sans-serif | monospace
+  */
+  font-family: 'Times New Roman', sans-serif;
+  /* color: initial; */
+  color: red;
+}
+
+.article-text {
+  text-align: justify;
+  /* висота лінії тексту */
+  line-height: 1.5;
+  font-size: 20px;
+  /*
+    вага шрифту
+    normal | bold | 100 - 900
+  */
+  font-weight: bold;
+  /* text-decoration-line: underline overline line-through; 
+  text-decoration-color: red;
+  text-decoration-style: dashed; */
+  text-decoration: underline overline line-through dashed red;
+  border: inherit;
+}
+
+.link {
+  /* 
+    підкреслення тексту 
+    none
+
+    text-decoration-line: none;
+    text-decoration-line: underline;
+    text-decoration-line: overline;
+    text-decoration-line: line-through;
+    text-decoration-color: ;
+
+    text-decoration-style: solid;
+    text-decoration-style: double;
+    text-decoration-style: dotted;
+    text-decoration-style: dashed;
+    text-decoration-style: wavy;
+  */
+  text-decoration: none;
+  color: blue;
+}
