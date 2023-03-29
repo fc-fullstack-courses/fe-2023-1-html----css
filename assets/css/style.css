@@ -3,3 +3,13 @@
 @import './header.css';
 @import './main.css';
 @import './user-card.css';
+
+.svg {
+  fill: red;
+}
+
+@media screen and (max-width:576px) {
+  .svg {
+    fill: green;
+  }
+}
