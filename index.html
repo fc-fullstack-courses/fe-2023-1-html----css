@@ -20,7 +20,7 @@
     </header>
     <!-- компонент main -->
     <main class="main">
-      <article class="user-card">
+      <!-- <article class="user-card">
         <div class="card-img-wrapper">
           <img class="img" src="assets/img/cat.jpg" alt="Patterson Johnson" />
         </div>
@@ -59,7 +59,12 @@
             </li>
           </ul>
         </div>
-      </article>
+      </article> -->
+      <picture>
+        <source srcset="./assets/img/small-pic.jpg" media="(max-width:768px)">
+        <source srcset="./assets/img/cats.jpg" media="(max-width: 2560px)">
+        <img src="assets/img/big-picture.jpg" alt="some picture" class="img">
+      </picture>
     </main>
   </body>
 </html>
