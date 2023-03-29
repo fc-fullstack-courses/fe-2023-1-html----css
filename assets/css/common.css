@@ -1,0 +1,18 @@
+:root {
+  font-size: 16px;
+}
+
+@media screen and (max-width: 1024px) {
+  :root {
+    font-size: 15px;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  :root {
+    font-size: 14px;
+  }
+}
+
+/* 600 */

@@ -2,6 +2,9 @@
   max-width: 700px;
   display: flex;
   border: 5px solid black;
+  border-radius: 20px;
+  overflow: hidden;
+  margin: 0 auto;
 }
 
 .card-img-wrapper {
@@ -44,13 +47,21 @@
 }
 
 .contact-link {
-
+  display: flex;
+  align-items: center;
 }
 
 .wrapper {
-  width: 40px;
+  width: 2.5rem;
 }
 
 .contact-link-text {
+  margin-left: 10px;
+}
 
+@media screen and (max-width: 576px) {
+  .user-card {
+    flex-direction: column;
+    max-width: 300px;
+  }
 }
