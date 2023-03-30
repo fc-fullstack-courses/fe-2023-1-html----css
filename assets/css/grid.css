@@ -1,0 +1,29 @@
+.wrapper {
+  display: grid;
+  /* width: 1200px; */
+  min-height: 100vh;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 150px 1fr 150px;
+
+}
+
+.item {
+  padding: 10px 20px;
+  font-size: 24px;
+}
+
+.item:nth-child(4n) {
+  background-color: aqua;
+}
+
+.item:nth-child(4n + 1) {
+  background-color: orange;
+}
+
+.item:nth-child(4n + 2) {
+  background-color: darkcyan;
+}
+
+.item:nth-child(4n + 3) {
+  background-color: gold;
+}
