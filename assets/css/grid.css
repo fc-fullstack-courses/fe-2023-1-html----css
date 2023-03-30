@@ -2,7 +2,8 @@
   display: grid;
   /* width: 1200px; */
   min-height: 100vh;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  /* repeat(20, 100px 50px) */
+  grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 150px 1fr 1fr 150px;
 }
 
